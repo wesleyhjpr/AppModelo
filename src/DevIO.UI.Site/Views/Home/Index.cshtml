@@ -1,0 +1,4 @@
+﻿@using DevIO.UI.Site.Data
+@inject IPedidoRepository  pedidoRepository
+<h1>Home</h1>
+@pedidoRepository.ObterPedido().Id
